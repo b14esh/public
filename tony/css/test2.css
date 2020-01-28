@@ -1,0 +1,32 @@
+﻿ p { color: red;}
+ 
+ p.bfo { background: black;}
+ 
+ .ramk { background-color: yellow; border: 2px solid green;}
+ .ramk1 { border: 2px solid green;}
+ 
+ body { font-family: Veranda, Geneva, Arial, sans-serif;
+		font-size: 14px;
+	  }
+	.tc1 {color: aqua;}
+	.tc2 {color: black;}
+	.tc3 {color: blue;}
+	.tc4 {color: fuchsia;}
+	.tc5 {color: gray;}
+	.tc6 {color: green;}
+	.tc7 {color: lime;}
+	.tc8 {color: maroon;}
+	.tc9 {color: navy;}
+	.tc10 {color: olive;}
+	.tc11 {color: purple;}
+	.tc12 {color: red;}
+	.tc13 {color: silver;}
+	.tc14 {color: teal;}
+	.tc15 {color: white;}
+	.tc16 {color: yellow;}
+	
+	.shr1 {font-family: Times, "Times New Roman", Georgia, serif;}
+	.shr2 {font-family: Veranda, Geneva, Arial, sans-serif;}
+	.shr3 {font-family: Courier, "Courier New" , "Andale Mono", monospase;}
+	.shr4 {font-family: "Comic Sans", "Apple Chancery", cursive;}
+	.shr5 {font-family: "LAST NINJA", Impact, fantasy;}
