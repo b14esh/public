@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <meta charset="utf-8">
+            <title> Starbuzz Bean Machine </title>
+            <link type="text/css" rel="stylesheet" href="../css/form.css"/>
+
+        </head>
+    <body>
+            
+            <h1> Starbuzz Bean machine</h1>
+            <h2> Заполните следующую форму и нажмите <br> на кнопку "Заказать сейчас",  чтобы оформить заказ. </h2>
+         <!--   <form action="http://starbuzzcoffe.com/processorder.php" method="GET"> -->
+            <form action="http://starbuzz/html/processorder.php" method="POST">
+            
+            <div class="tableRow">
+            <p> Выберите кофе: </p>
+            <p>
+               <!--<select name="thembeans"> -->
+               <select name="beans">
+                     <option value="Смесь"> Домашняя смесь </option>
+                     <option value="Боливия"> Боливия </option>
+                     <option value="Гватемала"> Гватемалв </option>
+                     <option value="Кения"> Кения </option>
+                </select>
+            </p>
+            </div>
+         
+            <div class="tableRow">
+                <p>Тип: </p>
+                <p>
+                   <input checked="checked" type="radio" name="beantype" value="зерна"> Кофе в зернах<br>
+                   <input type="radio" name="beantype" value="молотый"> Молотый Кофе
+                </p>
+            </div>
+            
+            <div class="tableRow">
+            <p> Количество пакетиков: </p>
+            <p> <input type="number" name="bags" min="1" max="10"> </p>
+            </div>
+            
+            <div class="tableRow lable">
+               <p> Доставить к указанной дате: </p>
+               <p> <input type="date" name="date"> </p>
+            </div>
+            
+            <div class="tableRow">
+               <p>Дополнительные услуги:</p>
+               <p>
+               <input type="checkbox" name="extras[]" value="падарочная упаковка"> Подарочная упаковка <br>
+               <input type="checkbox" name="extras[]" value="каталог" checked="checked"> Доставка каталога вместе с заказом
+               </p>
+            </div>
+            
+            <div class="tableRow">
+                 <p class="heading"> Доставить по адресу: </p>
+                 <p></p>
+            </div>
+               
+               <div class="tableRow">
+                  <p> Имя: </p>
+                  <p><input type="text" name="name"> </p>
+               </div>
+               
+               <div class="tableRow">
+                    <p> Адресс: </p>
+                    <p><input type="text" name="address"> </p>
+                </div>
+               
+               <div class="tableRow">
+                    <p> Город: </p>
+                    <p> <input type="text" name="city"> </p>
+                 </div>
+               
+                  <div class="tableRow">
+                    <p> Страна: </p>
+                    <p><input type="text" name="state"> </p>
+                  </div>
+                  
+                  <div class="tableRow">
+                      <p>  Почтовый индекс: </p>
+                      <p> <input type="text" name="zip"> </p>
+                  </div>
+               
+                  <div class="tableRow">
+                      <p>  Телефон: </p>
+                      <p> <input type="tel" name="phone"> </p>
+                  </div>
+                
+                <div class="tableRow">
+                <p>  Коментарии клиентов:  </p>
+                <p><textarea name="comments" rows="10" cols="48" ></textarea> </p>
+                </div>
+                
+                <div class="tableRow">
+                <p></p>
+                <p><input type="submit" name="Заказать"/></p>
+                </div>
+    </form>
+    </body>
+</html>
