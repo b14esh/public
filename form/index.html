@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Принять участие в конкурсе </title>
+    </head>
+   <body> 
+    <form action="html/contest.php" method="POST">
+    <p> Просто введите свое имя (и нажмите кнопку Отправить), чтобы принять участие в конкурсе: <br/>
+    Имя: <input type="text" name="firstname" value=""/> <br/>
+    Фамелия: <input type="text" name="lastname" value=""/> <br/>
+    Горячо : да <input type="radio" name="hotornot" value="горячо"/> 
+             нет <input type="radio" name="hotornot" value="нет"/> <br/>
+    Для супа нада соль ? <input type="checkbox" name="spice" value="соль"/> <br/>
+    А перец ? <input type="checkbox" name="spice" value="перец"/> <br/>
+    Может еще чеснок ? <input type="checkbox" name="spice" value="чеснок"/> <br> <br>
+    коментарии: <br/>
+     <textarea name="comments" rows="10" cols="48"> rows = 10 = высота, cols = 48 = ширина </textarea> <br/>
+        <br>
+        <select name="characters">
+            <option value="Баккару"> Баккару Банзай</option>
+            <option value="Томми"> Чудесный Томми </option>
+            <option value="Пенни"> Пенни Придди </option>
+            <option value="Джерси"> Нью-Джерси </option>
+            <option value="Джон"> Джон Паркер</option>
+            <option value="Бен"> Прадди Бен </option>
+        </select> <br> <br>
+            
+           Выбери число от 0 до 20: <input type="number" min="0" max="20"> <br>
+           Выбери число от 0 до 20: <input type="range" min="0" max="20" step="1">  <br>
+           Выбери свой цвет: <input type="color"> <br>
+           Выбери дату: <input type="date"> <br>
+           Email: <input type="email"> <br>
+           Phone: <input type="tel"> <br>
+           URL: <input type="url"> <br>
+           
+           <br> <br> <br>
+             Имя: <input type="text" name="name"> <br>
+            Адресс: <input type="text" name="address"> <br>
+            Город: <input type="text" name="city"> <br>
+            Страна: <input type="text" name="state"> <br>
+            Почтовый индекс: <input type="text" name="zip"> <br>
+            Телефон: <input type="tel" name="phone"> <br>
+           
+    <br> <br>        
+    <input type="submit"/>
+    </p>
+    </form>
+   </body>
+</html>
