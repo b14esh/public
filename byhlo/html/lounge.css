@@ -1,0 +1,67 @@
+﻿body {
+		font-size: small;
+		font-family: Veranda, Helvetica, Arial, sans-serif;
+		line-height: 1.6em;
+		<!-- line-height: 0.5em; -->
+	 }
+	 h1, h2 {color: #007e7e;}
+	 h1 { font-size: 150%;}
+	 h2 { font-size: 130%;}
+	 <!--
+	 .gurantee {
+		 border-color: black;
+		 border-widht: 1px;
+		 border-style: solid;
+		 background-color: #a7cece;
+	 }
+	 -->
+	 
+	 
+	 /**
+	 .gurantee {
+		 border-color: black;  Цвет бардюра 
+		 border-widht: 1px; ширина барлюра
+		 border-style: solid;Сплашной бардюр
+		 background-color: #a7cece; цвет фона
+		 padding: 25px; отступ
+		 margin: 30px; поля
+		 line-height 1.9em; межстрочный интервал
+		 background-image: url(img/b5.png); вставка картинки
+	 }
+	 **/
+	 
+	 #gurantee1 {
+		 border-color: black;
+		 border-widht: 1px;
+		 border-style: solid;
+		 background-color: #a7cece;
+		 padding: 25px;
+		 padding-left: 80px;
+		 margin: 30px;
+		 margin-right: 250px;
+		 font: Georgia, "Time New Roman", Times, serif;
+		 font-style: italic;
+		 color: #444444;
+		line-height: 1.9em;
+		background-image: url(../img/b5.png);
+		background-repeat: no-repeat;
+		background-position: top left;
+		border-style: dashed;
+		border-color: white;
+	 }
+	 
+	 #elixirs {
+		 border-width: twin;
+		 border-style: solid;
+		 border-color: #007e7e;
+		 width: 200px;
+		 
+		 padding-right: 20px;
+		 padding-bottom: 20px;
+		 padding-left: 20px;
+		 
+		 margin-left: 20px;
+		 text-align: center;
+		 background-image: url(../img/cocktail.gif);
+		 background-repeat: repeat-x;
+		}
