@@ -1,0 +1,6 @@
+﻿<meta sharset="utf-8">
+<script>
+var name = prompt("Name:");
+alert("hello!, ");
+alert(name); 
+</script>

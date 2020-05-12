@@ -1,0 +1,4 @@
+﻿<meta sharset="utf-8">
+<script>
+alert("hello!, "); 
+</script>

@@ -1,0 +1,10 @@
+﻿<meta charset="utf-8">
+<script>
+var a = "5";
+var b = '6';
+alert(a+b); //выведит 56
+
+var a = parseInt("5");
+var b = parseInt('6');
+alert(a+b); //выведит 11
+</script>

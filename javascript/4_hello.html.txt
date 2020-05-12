@@ -1,0 +1,6 @@
+﻿<meta charset="utf-8">
+<script>
+var a = prompt("Введи число А:");
+var b = prompt("Введи число Б:");
+alert(a*b);
+</script>

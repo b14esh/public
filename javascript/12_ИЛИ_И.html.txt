@@ -1,0 +1,14 @@
+﻿<meta charset="utf-8">
+<script>
+
+var a = parseInt(prompt('A:'));
+var b = parseInt(prompt('B:'));
+var c = parseInt(prompt('C:'));
+
+if (((a > b) && (a < c)) ||((a > c ) && (a < b ))) {
+    alert('A - между B и C');
+} else {
+   alert(' не а не между Б и С :( ')
+}
+   
+</script>

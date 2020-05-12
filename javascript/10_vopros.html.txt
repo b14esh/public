@@ -1,0 +1,31 @@
+﻿<meta charset="utf-8">
+<script>
+v1='0';
+v2='0';
+var a = prompt('Сижу верхом, не ведаю на ком:');
+if ( a == 'шапка') {
+      alert('верно!');
+	  v1='1';
+} 
+ else { 
+       alert('неверно!');
+       v1='0';
+}
+
+var b = prompt("Зимой и летом одним цветом");
+if (b == 'Елка') {
+               alert('верно!')
+               v2='1';
+}
+else   {
+       alert('неверно!')
+	   v2='0';
+	   }
+
+
+v1 = parseInt(v1);
+v2 = parseInt(v2);
+
+alert(v1+v2);
+alert('конец');
+</script>

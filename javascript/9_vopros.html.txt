@@ -1,0 +1,11 @@
+﻿<meta charset="utf-8">
+<script>
+var a = prompt('Сижу верхом, не ведаю на ком:');
+if ( a == 'шапка') {
+      alert('верно!');
+} 
+ else { 
+       alert('неверно!');
+}
+alert('конец');
+</script>

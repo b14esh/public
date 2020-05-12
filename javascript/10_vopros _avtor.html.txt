@@ -1,0 +1,27 @@
+﻿<meta charset="utf-8">
+<script>
+
+var score = 0; //буфер
+var answer = '';
+
+var a = prompt('Сижу верхом, не ведаю на ком:');
+if ( a == 'шапка') {
+      alert('верно!');
+	  score = score +1;
+} 
+ else { 
+       alert('неверно!');
+}
+
+var b = prompt("Зимой и летом одним цветом");
+if (b == 'Елка') {
+               alert('верно!:)');
+               score = score + 1;
+}
+else   {
+       alert('неверно!')
+	   }
+	   
+alert('Верныйх ответов:' + score);
+alert('конец');
+</script>

@@ -1,0 +1,17 @@
+﻿<meta charset="utf-8">
+<script>
+//underfined - неопределенные значения
+var v;
+alert(v);
+alert(typeof(v));
+
+//number - число (целое или с точкой)
+var v = '1';
+alert(v);
+alert(typeof(v));
+
+//string - строка
+var v = 'A';
+alert(v);
+alert(typeof(v));
+</scrit>

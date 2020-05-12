@@ -1,0 +1,38 @@
+﻿<meta charset="utf-8">
+<script>
+alert("Привет нубас я твой мега пупер калькулятор");
+alert("Сейчас будем сладывать!");
+var a = prompt("Введите число А");
+a = parseInt(a);
+var b = prompt("Введите число Б");
+b = parseInt(b);
+//alert("Вот так мы наскладывали");
+alert(a+b);
+
+alert("Сейчас будем отымать!");
+var a = prompt("Введи число A");
+a = parseInt(a);
+var b = prompt("Введи чило B");
+b = parseInt(b);
+//alert("Вот так мы навычитались");
+alert(a-b);
+
+alert("Сейчас мы будем умножать!");
+var a = prompt("Введите число А");
+a = parseInt(a);
+var b = prompt("Введите число Б");
+b = parseInt(b);
+alert(a*b);
+
+alert("Сейчас мы будем делить!");
+var a = prompt("Введите число А");
+a = parseInt(a);
+var b = prompt("Введите число Б");
+b = parseInt(b);
+alert(a/b);
+
+alert("Сейчас мы будем умножать на себя");
+var a = prompt("Введите число");
+a = parseInt(a);
+alert(a*a);
+</script>

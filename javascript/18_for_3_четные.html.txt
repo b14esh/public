@@ -1,0 +1,6 @@
+﻿<meta charset="utf-8">
+<script>
+for (var n=0; n<=20; n=n+2) {
+    alert(n);
+}
+</script>

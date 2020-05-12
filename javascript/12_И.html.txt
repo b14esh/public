@@ -1,0 +1,17 @@
+﻿<meta charset="utf-8">
+<script>
+
+var a = parseInt(prompt('A:'));
+var b = parseInt(prompt('B:'));
+var c = parseInt(prompt('C:'));
+
+if ((a > b) && (a > c)) {
+    alert('А больше всех');
+} else if  ((b > a) && (b > c)) {
+    alert('Б больше всех');
+} else if ((c > a) && (c > b)) {
+   alert('С больше всех');
+} else {
+   alert('больших чисел несколько!');
+}
+</script>
